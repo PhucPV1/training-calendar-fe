@@ -1,0 +1,79 @@
+.calendar {
+  color: rgba(14, 14, 165, 0.753);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin: 0 10px;
+}
+.day {
+  width: 14.28%;
+}
+.active {
+  color: purple;
+  font-weight: bold;
+}
+.day_of_the_week,
+.day_workout {
+  text-align: left;
+}
+.day_of_the_month,
+.day_of_the_week {
+  padding: 7px 0;
+}
+.day_workout {
+  background-color: rgba(0, 0, 255, 0.062);
+  border-radius: 7px;
+  min-height: 700px;
+  padding: 0 7px;
+}
+.workout_name {
+  font-size: 16px;
+  padding: 3px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow-y: hidden;
+}
+.workout {
+  border: 1px solid rgba(0, 0, 255, 0.158);
+  border-radius: 7px;
+  padding: 1px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.exercise {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: 1px solid rgba(0, 0, 255, 0.158);
+  border-radius: 7px;
+  padding: 2px 3px;
+  margin-bottom: 5px;
+  gap: 5px;
+}
+.plus {
+  cursor: pointer;
+  margin-left: 85%;
+  border-radius: 50%;
+  border: none;
+  width: 20px;
+}
+.set_info h6,
+.set_info span {
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow-y: hidden;
+}
+.set_info span,
+.set_number {
+  font-size: 12px;
+  color: gray;
+}
+.loading {
+  font-size: 12px;
+}
